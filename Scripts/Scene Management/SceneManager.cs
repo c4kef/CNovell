@@ -150,7 +150,7 @@ namespace CNovell.SceneManagement
             return null;
         }
 
-        public IEnumerator LoadScene(string webPathToScene)
+        public IEnumerator LoadScene(string webPathToScene, string assetPathInEditor)
         {
             while (!Caching.ready)
                 yield return null;
@@ -164,7 +164,7 @@ namespace CNovell.SceneManagement
                 yield break;
             }
             AssetBundle assetBundle = web.assetBundle;
-            AssetBundleRequest scene = assetBundle.LoadAssetAsync("Assets/CNovell/Resources/Scriptable Objects/Scenes/Welcome.asset", typeof(Scene));
+            AssetBundleRequest scene = assetBundle.LoadAssetAsync(assetPathInEditor, typeof(Scene));
             yield return scene;
             m_currentScene = scene.asset as Scene;
             NewScene(m_currentScene);
