@@ -1,5 +1,6 @@
 # CNovell
-Visual Novel Engine from C4ke
+Visual Novel Engine by C4ke
+Для игрового движка Unity3D
 # Возможности
 CNovell умеет следующее:
 
