@@ -1,0 +1,174 @@
+ManifestFileVersion: 0
+CRC: 393888194
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 8234405d98b43fe27f10de4ff2efd835
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 829d0867b19749922d8006cea387bce4
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 20
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 81
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 31a19414c41e5ae4aae2af33fee712f6, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: cfabb0440166ab443bba8876756fdfa9, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9085046f02f69544eb97fd06b6048fe2, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8a8695521f0d02e499659fee002a26c2, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 59f8146938fff824cb5fd77236b75775, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 30649d3a9faa99c48a7b1166b86bf2a0, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c343931cf285f174f9db67c3fea3cb36, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4a4cc6768ca1dee4f9d42173dbce0b03, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f38020c6220c6084bbf403ed9c585838, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8b19fd96f384d73488a80aba14d3f33d, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 93132e537c4804240baf7e7a62184867, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5cc9c7ed2f699b84293327c5af4c198b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 44c786e63f8b54f4eaf62140c9011b53, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: ff717f8b708e03e449999fed417ac01c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2a4db7a114972834c8e4117be1d82ba3, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d4736a76f54eabd498ec4ac540793476, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7b23ffe4043565e46a04a1affa3e64e6, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 737a0fbcd4e78704e80753757bbdc573, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 103f3cff3124c3f409d3d50d7232d094, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 160091784641d9647a17cf3f0654f105, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 40703a6190b528640938b42580668814, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: aafb1aecad3c06e4ead1128dbf4282d3, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2f5d16997c22cc241bd5f4c6cf433796, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1aa08ab6e0800fa44ae55d278d1423e3, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 51525da43745e3b42b901245372d7ae5, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3312d7739989d2b4e91e6319e9a96d76, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3bf1f0fa704193a4d9f493dbabc686e0, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0f97195559373da409a1adde84887dff, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 268926b0572e1734695332a363e32b77, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 269eb79aee5fdb040bf0e653d6e9d202, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 92f51bc8490422e44bcea4c42794971d, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 223
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+- Class: 241
+  Script: {instanceID: 0}
+- Class: 243
+  Script: {instanceID: 0}
+- Class: 245
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/CNovell/Resources/Fonts/Roboto/Roboto-Medium.ttf
+- Assets/CNovell/Resources/Fonts/Roboto/Roboto-Light.ttf
+- Assets/CNovell/Resources/Textures/Codel/Codel6.png
+- Assets/CNovell/Resources/Textures/Codel/Codel1.png
+- Assets/CNovell/Resources/Animator/Sand Clock Flip.anim
+- Assets/CNovell/Resources/Textures/Codel/Codel2.png
+- Assets/CNovell/Resources/Textures/Backgrounds/5eae1233c4b64_thumb900.jpg
+- Assets/CNovell/Resources/Fonts/Roboto/Roboto-Bold.ttf
+- Assets/CNovell/Resources/Textures/Codel/Codel9.png
+- Assets/CNovell/Resources/Scriptable Objects/Backgrounds/BgTest.asset
+- Assets/CNovell/Resources/Textures/Codel/Codel11.png
+- Assets/CNovell/Resources/Prefabs/Branch.prefab
+- Assets/CNovell/Resources/Prefabs/Character.prefab
+- Assets/CNovell/Resources/Audio/Mixer.mixer
+- Assets/CNovell/Resources/Animator/Sand Clock.controller
+- Assets/CNovell/Resources/Scriptable Objects/Backgrounds/Background.asset
+- Assets/CNovell/Resources/Animator/Sand Clock Change.anim
+- Assets/CNovell/Resources/Fonts/Roboto/Roboto-BoldItalic.ttf
+- Assets/CNovell/Resources/Scriptable Objects/Characters/Lilia.asset
+- Assets/CNovell/Resources/Textures/Nastya/coral_angry.png
+- Assets/CNovell/Resources/Scriptable Objects/Values/Lilia.asset
+- Assets/CNovell/Resources/Textures/UI/Sand Clock Sand.png
+- Assets/CNovell/Resources/Textures/Codel/Codel12.png
+- Assets/CNovell/Resources/Textures/Codel/Codel4.png
+- Assets/CNovell/Resources/Textures/Codel/Codel7.png
+- Assets/CNovell/Resources/Textures/Codel/Codel3.png
+- Assets/CNovell/Resources/Textures/Nastya/coral_surprised.png
+- Assets/CNovell/Resources/Textures/Nastya/coral_sad.png
+- Assets/CNovell/Resources/Textures/UI/Sand Clock.png
+- Assets/CNovell/Resources/Scriptable Objects/Scenes/Welcome.asset
+- Assets/CNovell/Resources/Textures/Nastya/coral_neutral.png
+- Assets/CNovell/Resources/Prefabs/Scene.prefab
+- Assets/CNovell/Resources/Textures/Codel/Codel8.png
+- Assets/CNovell/Resources/Textures/Codel/Codel10.png
+- Assets/CNovell/Resources/Textures/Nastya/coral_happy.png
+- Assets/CNovell/Resources/Textures/Codel/Codel5.png
+- Assets/CNovell/Resources/Scriptable Objects/Characters/Nastya.asset
+- Assets/CNovell/Resources/Textures/UI/Square Filled.png
+- Assets/CNovell/Resources/Fonts/Roboto/Roboto-Thin.ttf
+- Assets/CNovell/Resources/Fonts/Roboto/Roboto-Regular.ttf
+- Assets/CNovell/Resources/Prefabs/Save Slot.prefab
+- Assets/CNovell/Resources/Textures/Backgrounds/tumblr_o9tcb8UYXm1tykq7oo1_1280.jpg
+Dependencies: []

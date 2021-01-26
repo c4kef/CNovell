@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 103f3cff3124c3f409d3d50d7232d094, type: 3}
+  m_Name: Lilia
+  m_EditorClassIdentifier: 
+  m_name: "\u041B\u0438\u043B\u0438\u044F"
+  m_sprites:
+  - {fileID: 21300000, guid: 23769b41b82768d4fac20a7651a3728c, type: 3}
+  - {fileID: 21300000, guid: 750c880e7929aa949a94089561dd2ce3, type: 3}
+  - {fileID: 21300000, guid: 010f2e5dea3b5794fb306e0c737e553a, type: 3}
+  - {fileID: 21300000, guid: c2301c5bdd5eab84ea536d4a0dbc3fac, type: 3}
+  - {fileID: 21300000, guid: f69eb11c50787e94b847098a2db8f3fb, type: 3}
+  - {fileID: 21300000, guid: a5006156d619aed4db4a5e9d04391af2, type: 3}
+  - {fileID: 21300000, guid: 109ac2dbeae1ff04fb3fdabc0a958e5b, type: 3}
+  - {fileID: 21300000, guid: 8a8b18a11e7d4ec418eccecfc2cc7678, type: 3}
+  - {fileID: 21300000, guid: 028d4fbf11fd18943b128760c5bbb795, type: 3}
+  - {fileID: 21300000, guid: 927f3c411225d7744836fe2505111ac8, type: 3}
+  - {fileID: 21300000, guid: ce17d8437ccf9974785c49e39509dcf4, type: 3}
+  - {fileID: 21300000, guid: 3c021fd79a5f61448955194eef7cbd2d, type: 3}
+  m_audioClips: []
