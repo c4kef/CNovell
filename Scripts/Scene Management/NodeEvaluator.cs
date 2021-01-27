@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using CNovell.Nodes;
 
 namespace CNovell.SceneManagement
@@ -69,14 +69,14 @@ namespace CNovell.SceneManagement
                 if (m_currentNode is BGMNode)
                 {
                     m_nodeProcessor.ProcessBGM();
-                    event_NodeEvaluted(TypesNode.BGMNode);
+                    event_NodeEvaluted?.Invoke(TypesNode.BGMNode);
                     return true;
                 }
                 else if (m_currentNode is SFXNode)
                 {
                     SFXNode sfxNode = m_currentNode as SFXNode;
                     m_sceneManager.StartCoroutine(audioManager.PlaySFX(sfxNode.GetSFX(), true, sfxNode.GetWaitForFinish()));
-                    event_NodeEvaluted(TypesNode.SFXNode);
+                    event_NodeEvaluted?.Invoke(TypesNode.SFXNode);
                     return true;
                 }
             }
@@ -98,7 +98,7 @@ namespace CNovell.SceneManagement
                 if (m_currentNode is BackgroundNode)
                 {
                     m_nodeProcessor.ProcessBackground(nextNode);
-                    event_NodeEvaluted(TypesNode.BackgroundNode);
+                    event_NodeEvaluted?.Invoke(TypesNode.BackgroundNode);
                     return true;
                 }
             }
@@ -120,7 +120,7 @@ namespace CNovell.SceneManagement
                 if (m_currentNode is BranchNode)
                 {
                     branchManager.DisplayChoices((m_currentNode as BranchNode).GetBranches(), (m_currentNode as BranchNode).GetTimeWait(), true);
-                    event_NodeEvaluted(TypesNode.BranchNode);
+                    event_NodeEvaluted?.Invoke(TypesNode.BranchNode);
                     return true;
                 }
             }
@@ -142,16 +142,16 @@ namespace CNovell.SceneManagement
                 if (m_currentNode is CharacterNode)
                 {
                     m_nodeProcessor.ProcessCharacter(nextNode);
-                    event_NodeEvaluted(TypesNode.CharacterNode);
+                    event_NodeEvaluted?.Invoke(TypesNode.CharacterNode);
                     return true;
                 }
                 else if (m_currentNode is CharacterScaleNode || m_currentNode is CharacterTranslateNode)
                 {
                     m_nodeProcessor.ProcessCharacterTransform();
                     if (m_currentNode is CharacterTranslateNode)
-                        event_NodeEvaluted(TypesNode.CharacterTranslateNode);
+                        event_NodeEvaluted?.Invoke(TypesNode.CharacterTranslateNode);
                     else
-                        event_NodeEvaluted(TypesNode.CharacterScaleNode);
+                        event_NodeEvaluted?.Invoke(TypesNode.CharacterScaleNode);
                     return true;
                 }
             }
@@ -173,13 +173,13 @@ namespace CNovell.SceneManagement
                 if (m_currentNode is DialogueNode)
                 {
                     m_nodeProcessor.ProcessDialogue();
-                    event_NodeEvaluted(TypesNode.DialogueNode);
+                    event_NodeEvaluted?.Invoke(TypesNode.DialogueNode);
                     return true;
                 }
                 else if (m_currentNode is DialogueBoxNode)
                 {
                     m_nodeProcessor.ProcessDialogueBox();
-                    event_NodeEvaluted(TypesNode.DialogueBoxNode);
+                    event_NodeEvaluted?.Invoke(TypesNode.DialogueBoxNode);
                     return true;
                 }
             }
@@ -199,7 +199,7 @@ namespace CNovell.SceneManagement
             if (m_currentNode is DelayNode)
             {
                 m_sceneManager.StartCoroutine(utilityManager.Delay((m_currentNode as DelayNode).GetDelayTime(), true));
-                event_NodeEvaluted(TypesNode.DelayNode);
+                event_NodeEvaluted?.Invoke(TypesNode.DelayNode);
                 return true;
             }
 
@@ -211,13 +211,13 @@ namespace CNovell.SceneManagement
             if (m_currentNode is ConditionNode)
             {
                 m_nodeProcessor.ProcessCondition();
-                event_NodeEvaluted(TypesNode.ConditionNode);
+                event_NodeEvaluted?.Invoke(TypesNode.ConditionNode);
                 return true;
             }
             else if (m_currentNode is ModifyNode)
             {
                 m_nodeProcessor.ProcessModify();
-                event_NodeEvaluted(TypesNode.ModifyNode);
+                event_NodeEvaluted?.Invoke(TypesNode.ModifyNode);
                 return true;
             }
 
@@ -232,10 +232,10 @@ namespace CNovell.SceneManagement
                 m_sceneManager.GetCurrentScene().SetCurrentPage((pageNode).GetPageNumber());
                 m_sceneManager.NewPage((pageNode).GetPageNumber());
                 m_sceneManager.NextNode();
-                event_NodeEvaluted(TypesNode.PageNode);
+                event_NodeEvaluted?.Invoke(TypesNode.PageNode);
             }
             else if (m_currentNode is EndNode)
-                event_NodeEvaluted(TypesNode.EndNode);
+                event_NodeEvaluted?.Invoke(TypesNode.EndNode);
         }
         #endregion
     }
